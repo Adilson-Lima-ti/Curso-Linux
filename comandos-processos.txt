@@ -1,0 +1,4 @@
+ps ==> Apresenta os processos ativos no momento.
+ps aux ==> Apresenta os processos ativos no momento de forma detalhada.
+kill pid ==> Mata o processo com o respectivo pid (ID do processo)
+killall proc ==> Mata todos os processos com o nome proc.
