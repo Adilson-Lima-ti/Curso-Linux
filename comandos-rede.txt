@@ -1,0 +1,14 @@
+ping host
+whois domínio
+dig domínio
+dig -x domínio
+Descrição
+ping host ==> Realiza um ping no host para verificar se o mesmo está ativo.
+whois domínio ==> Pega/Checa whois do domínio (Quem é?).
+dig domínio ==> Pega/Checa o DNS do domínio.
+dig -x domínio ==> Pega/Checa o reverso do domínio.Comandos para rede
+wget arq ==> Faz download do arquivo na Internet.
+wget -c arq ==> Continua o download do arquivo na Internet em caso de ter parado.
+wget -r url ==> Faz download de forma recursiva de arquivos da url.
+curl url ==> Vê e apresenta o conteúdo da página da url informada.
+curl -o minha.html url ==> Lê o conteúdo da página em url e escreve em minha.html.

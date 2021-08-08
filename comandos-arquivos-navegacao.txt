@@ -1,0 +1,83 @@
+ls ==> Listagem de dados em diretórios.
+ls -l ==> Listagem de dados em diretórios formatada.
+ls -la ==> Listagem de dados em diretórios formatada incluindo arquivos ocultos.
+cd dir ==> Muda o diretório atual para dir (onde dir é o diretório a ser acessado).
+cd .. ==> Muda o diretório para o diretório pai (diretório anterior).
+cd ../dir ==> Muda o diretório atual para dir dentro do diretório pai (diretório anterior).
+cd ~ ==> Muda para o diretório home.
+pwd ==> Mostra o diretório atual.Comandos para arquivos e navegação
+mkdir dir ==> Cria o diretório dir no diretório atual.
+rm arq ==> Deleta o arquivo arq.
+rm -f dir ==> Deleta o arquivo de maneira forçada.
+rm -r dir ==> Deleta o diretório dir de maneira recursiva*.
+
+
+Descrição
+rm -rf dir ==> Deleta o diretório de maneira recursiva forçada.
+rm -rf / ==> NUNCA FAÇA ISSO! apaga tudo da RAIZ
+cp arq1 arq2 ==> Copia o arq1 para arq2 (Cria arq2 com o mesmo conteúdo de arq1).
+mv arq1 arq2 ==> Move o arq1 para arq2 (Renomeia arq1 para arq2).
+mv arq1 dir/arq2 ==> Move arq1 para dentro do diretório dir com o nome arq2.
+touch arq ==> Cria o arquivo arq.
+cat arq ==> Lê e apresenta o conteúdo do arquivo arq.
+cat arq1 > arq2 ==> Lê o conteúdo do arquivo arq1 e insere os dados no início do arquivo arq2.
+
+
+cat arq1 >> arq2 ==> Lê o conteúdo do arquivo arq1 e insere os dados no fim do arquivo arq2.
+tail -f arq ==> Lê e escreve o conteúdo do arquivo arq de acordo com as alterações deste arquivo.
+
+Obs. Se tiver * no nome do arquivo.. está sem salvar alteração
+cd - ... volta igual botao alternar tv
+ls -l (detalhes)
+ls -la (detalhes)
+ls -sh (detalhes com tamanho dos arquivos)
+du (tamanho ocupado no disco de cada arquivo ou pasta)
+du -h formato mais humano 
+du -hs somarizado
+mv arquivo1.txt arquivo2.txt || Renomear arquivo
+
+cp ../nome_do_arquivo .|| Copiar da pasta anterior para atual
+cp arquivo destino
+rm remover
+
+Atalhos
+
+/etc/passwd|more (|more ----pagina a tela)
+/etc/passwd|less (|less - com a seta do teclado..... obs não consegui sair da tela no final.)
+
+criar um txt  e ja escrever
+
+cat > arquivo.txt
+
+escreve e depois ctrl+z
+
+para ler no terminal
+
+vi arquivo.txt ........ depois ctrl+z para sair
+
+apagar diretorio não vazio 
+rm -rf /caminho/ate/diretorio
+ls  >mostrar diretórios
+ls -l > detalhes
+ls -la > mostra arquivos oculto
+cd - > uma espécie de diretório anterior)
+tab auto completa
+pwd > mostra caminho completo do doretório
+rm > remover arquivo
+rm  -r > (-r recursivo) remove diretorio e tudo que estiver dentro
+rm -f 
+cp > copy 
+mv > move ( é possível renomear na hora de mover)
+ctrl-l  > limpar
+touch novo.txt > Cria arquivo
+cat > Lê arquivo	
+cat Comandos.txt > novo.txt > copia o conteudo de um arquivo 
+para o início um novo arquivo. ...(sobrescreve)
+tail Comandos.txt > mostra as  ultimas  linhas
+head Comandos.txt > mostra o cabeçalho
+head -n 5 Comandos.txt > mostra as 5 primeiras linhas
+tail -n 5 Mostra as 5 últimas
+tal -f Mostra as últimas linhas e fica aguardando .. novo conteudo
+cat Comandos.txt >> novo.txt > copia arquivo no final do arquivo
+Comando para escrever no final do arquivo --echo aspas .... texto  aspas >> nomearquivo.txt 
+cat >> nomeArquivo.txt === escreve texto no final até digitar ctrl+Z
