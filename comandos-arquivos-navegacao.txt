@@ -1,3 +1,36 @@
+Atalhos
+pesquiza em arquivos de texto no terminal
+grep -i busca arquivo.txt (-i ignora maiusculas e minusculas)
+
+
+ locate -i school*note (localizar arquivo=pesquiza)
+
+alias (apelido) para editar
+vim .bashrc
+
+entrar com usuário root  sudo su
+
+criar script .sh
+#!/bin/bash
+echo "teste"
+
+
+editor vim
+y para copiar uma linha e para colar  a tecla p (put).
+
+Para acessar o modo visual é basta apertarmos a tecla v (visual).
+:w salva  | :q saí  |SALVAR E SAIR :wq, ou simplesmente :x.
+  cd - (cd 'traço' igual botão ALTERNAR TV)
+/etc/passwd|more (|more ----pagina a tela)
+/etc/passwd|less (|less - com a seta do teclado..... 
+
+du mostra os arquivos e o total de espaço usado pela pasta
+
+du -hs mostra o total de espaço usado pela pasta
+
+
+
+
 ls ==> Listagem de dados em diretórios.
 ls -l ==> Listagem de dados em diretórios formatada.
 ls -la ==> Listagem de dados em diretórios formatada incluindo arquivos ocultos.
@@ -40,10 +73,7 @@ cp ../nome_do_arquivo .|| Copiar da pasta anterior para atual
 cp arquivo destino
 rm remover
 
-Atalhos
 
-/etc/passwd|more (|more ----pagina a tela)
-/etc/passwd|less (|less - com a seta do teclado..... obs não consegui sair da tela no final.)
 
 criar um txt  e ja escrever
 
